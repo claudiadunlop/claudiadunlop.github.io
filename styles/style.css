@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+}
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: lightblue;
+}
+
+.page-container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: lightblue;
+  color: black;
+  line-height: 1.5;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  justify-content: center; 
+  gap: 20px;
+}
+
+.project-header{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cards {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.rubiks-cube {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.go-board {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blackjack-game {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.chess {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.photo-filter {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.weather-app {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.project-card {
+    background-color: darkslateblue;
+    display: flex;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#project-modal[open] {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal-title, #modal-details, #modal-link {
+    text-align: center;
+}
+
+#modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  border: none;
+  background: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+h2 {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.hero-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: black;
+}
+
+.contact-form {
+    align-items: center;
+    justify-content: center;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#skills li {
+  margin: 8px 0;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  background-color: darkslateblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#resume a {
+  display: block;          
+  width: fit-content;     
+  margin: 20px auto;      
+  padding: 10px 20px;
+
+  background-color: darkslateblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}

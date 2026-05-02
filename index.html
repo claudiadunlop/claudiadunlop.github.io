@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <main class="page-container">
+        <nav aria-label = "Main Navigation">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-container">
+            <img
+            src="images/IMG_1282.jpeg"
+            class = "hero-image"
+            alt="hero image for background"
+            />
+            <div class="hero-text">
+                <h1>Claudia Dunlop</h1>
+                <p class = "hero-subtitle">Explore my projects, skills, and experience</p>
+            </div>
+        </div>
+        <section id = "about">
+            <h2 class = "project-header">About Me</h2>
+            <p>I am a student at the University of Montana studying Computer Science and Political Science. I will be graduating in the spring of 2028. I am a Software Engineering concentration and I also have a certificate in Cybersecurity Management. In my free time, I enjoy competing in speech and debate, spending time doing anything outside, reading, writing, and being invovled in my church.</p>
+        </section>
+        <section id = "projects">
+            <dialog id="project-modal" tabindex="-1">
+                <button id="modal-close">X</button>
+                <h2 id="modal-title"></h2>
+                <p id="modal-details"></p>
+                <a id="modal-link" href="#" target="_blank"></a>
+            </dialog>
+            <h2 class="project-header">Projects</h2>
+            <section class="projects">
+                <ul class="project-list">
+                    <li class="cards">
+                        <h3>Rubik's Cube</h3>
+                        <img src="images/rubiks-cube.jpg" alt="Rubik's Cube" class="rubiks-cube">
+                        <article>
+                            <button type="button" class="project-card" data-index="0">
+                            Learn More
+                            </button>
+                        </article>
+                    </li>
+                    <li class="cards">
+                        <h3>Go Board</h3>
+                        <img src="images/go-board.avif" alt="Go Board" class="go-board">
+                        <article>
+                            <button type="button" class="project-card" data-index="1">
+                            Learn More
+                            </button>
+                        </article>
+                    </li>
+                    <li class="cards">
+                        <h3>Blackjack Game</h3>
+                        <img src="images/blackjack.png" alt="Blackjack Game" class="blackjack-game">
+                        <article>
+                            <button type="button" class="project-card" data-index="2">
+                            Learn More
+                            </button>
+                        </article>
+                    </li>
+                    <li class="cards">
+                        <h3>Chess Game</h3>
+                        <img src="images/chessboard.jpg" alt="Chess Game" class="chess">
+                        <article>
+                            <button type="button" class="project-card" data-index="3">
+                            Learn More
+                            </button>
+                        </article>
+                    </li>
+                    <li class="cards">
+                        <h3>Photo Filter</h3>
+                        <img src="images/photo-filter.jpg" alt="Photo Filter" class="photo-filter">
+                        <article>
+                            <button type="button" class="project-card" data-index="4">
+                            Learn More
+                            </button>
+                        </article>
+                    </li>
+                    <li class="cards">
+                        <h3>Weather App</h3>
+                        <img src="images/weather-app.webp" alt="Weather App" class="weather-app">
+                        <article>
+                            <button type="button" class="project-card" data-index="5">
+                            Learn More
+                            </button>
+                        </article>
+                    </li>
+                </ul>
+        </section>
+        </section>
+        <section id="skills">
+            <h2 class = "project-header">Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Effective Communication</li>
+                <li>Teamwork</li>
+                <li>Customer Service</li>
+            </ul>
+        </section>
+        <section id="resume">
+            <h2 class = "project-header">Resume</h2>
+            <p>Here is a pdf of my up to date resume!</p>
+            <a class = "resume-link" href = 'Resume.docx (3).pdf'>Download Resume</a>
+        </section>
+        <section id="contact">
+            <h2 class = "project-header">Contact</h2>
+            <div class="contact-form">
+                <form action="/subscribe" method="post">
+                <label for="name">Name: </label>
+                <input
+                    id="name"
+                    type="text"
+                    name="name"
+                    placeholder="Your Name Here"
+                />
+                <label for="email">Email: </label>
+                <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="name@example.com"
+                />
+                <label for="text">Message: </label>
+                <input
+                    id="message"
+                    type="text"
+                    name="text"
+                    placeholder="Your Message Here"
+                />
+
+                <button type="submit">Get In Touch</button>
+                </form>
+            </div>
+            <p>My Email: claudiadunlop05@gmail.com</p>
+        </section>
+    </main>
+</body>
