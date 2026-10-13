@@ -6,13 +6,10 @@
 const projects = [
   // Example object:
   // { title: "Project 1", details: "Details here", link_text: "View in GitHub", href: "https://example.com" },
-  {title: "Rubik's Cube:", details: "This is a digital version of the classic Rubik's Cube puzzle that we all grew up playing. It will allow you to move it in different ways. The algorithm also keeps track of of your moves and prints them back to you in reverse order as a way to solve the cube.", link_text: "View in GitHub", href: "https://example.com" },
-  {title: "Go Board:", details: "A version of the class game of Go. You are able to play against another person. You take turn placing stones and then the algorithm allows you to score your game and keeps track of captures.", link_text: "View in GitHub", href: "https://example.com" },
+  {title: "Rubik's Cube:", details: "This is a digital version of the classic Rubik's Cube puzzle that we all grew up playing. It will allow you to move it in different ways. The algorithm also keeps track of of your moves and prints them back to you in reverse order as a way to solve the cube.", link_text: "View in GitHub", href: "https://github.com/claudiadunlop/rubiks-cube-project" },
+  {title: "Go Board:", details: "A version of the class game of Go. You are able to play against another person. You take turn placing stones and then the algorithm allows you to score your game and keeps track of captures.", link_text: "View in GitHub", href: "https://github.com/claudiadunlop/go-board" },
   {title: "Blackjack Game:", details: "A fully functional blackjack game. It allows you to play against the computer and choose if you want to hit or stand. It also allows you to put in bets and will keep track of what your total amount of money is and will automatically end the game if you run out of money.", link_text: "View in GitHub", href: "https://example.com" },
-  {title: "Chess Game:", details: "An interactive chess game with a user-friendly interface and it allows you play against your opponent. The pieces move realistically and the computer will tell you when you are in check and when there is a checkmate and somenoe wins.", link_text: "View in GitHub", href: "https://example.com" },
-  {title: "Photo Filter:", details: "A simple photo editing app that allows users to apply various filters and effects to their images. You are able to layer images over one another and also add filters to each of these images in the process. You can then save the final image you make.", link_text: "View in GitHub", href: "https://example.com" },
-  {title: "Weather App:", details: "A weather application that provides real-time weather updates and forecasts for your location. Utilizing the National Weather Service API, it delivers accurate and timely weather information.", link_text: "View in GitHub", href: "https://example.com" }
-
+  {title: "DSA Repo:", details: "This is a repository of all of the different Data Structures and Algorithms that I built during my Intermediate Data Structures and Algorithms course. You can see the tests that each data structure had to pass, and can run and see all of the tests passing.", link_text: "View in GitHub", href: "https://github.com/claudiadunlop/dsa" },
 ];
 
 // TODO 2: Select your modal elements from the DOM and store them in variables
