@@ -10,7 +10,7 @@ const projects = [
   {title: "Go Board:", details: "A version of the class game of Go. You are able to play against another person. You take turn placing stones and then the algorithm allows you to score your game and keeps track of captures.", link_text: "View in GitHub", href: "https://github.com/claudiadunlop/go-board" },
   {title: "Blackjack Game:", details: "A fully functional blackjack game. It allows you to play against the computer and choose if you want to hit or stand. It also allows you to put in bets and will keep track of what your total amount of money is and will automatically end the game if you run out of money.", link_text: "View in GitHub", href: "https://github.com/claudiadunlop/blackjack" },
   {title: "DSA Repo:", details: "This is a repository of all of the different Data Structures and Algorithms that I built during my Intermediate Data Structures and Algorithms course. You can see the tests that each data structure had to pass, and can run and see all of the tests passing.", link_text: "View in GitHub", href: "https://github.com/claudiadunlop/dsa" },
-  {title: "Blog Project:", details: "A blog where you can add posts, and then delete and edit existing posts.", link_text: "View in GitHub", href: "https://github.com/claudiadunlop/blog-project" },
+  {title: "Blog Project:", details: "A blog where you can add posts, and then delete and edit existing posts. You can login and sign up, and when you are logged in, you can add posts and then edit the posts that you have already created, or delete those existing posts.", link_text: "View in GitHub", href: "https://github.com/claudiadunlop/blog-project" },
 ];
 
 // TODO 2: Select your modal elements from the DOM and store them in variables
